@@ -1,7 +1,8 @@
 import io.zipcoder.interfaces.Person;
 
-public class TestConstructor {
+public class TestInstructor {
     public void testImplementation() {
+
         Instructor instructor = new Instructor(1, "Jane");
         assert instructor instanceof Teacher;
     }
