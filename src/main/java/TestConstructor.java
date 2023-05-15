@@ -7,13 +7,13 @@ public class TestConstructor {
     }
 
     public void testInheritance() {
-        Instructor instructor = new Instructor(1, "Jane");
+        Instructor instructor = new Instructor(1, "Mack");
         assert instructor instanceof Person;
     }
 
     public void testTeach() {
-        Instructor instructor = new Instructor(1, "Jane");
-        Student student = new Student(2, "John");
+        Instructor instructor = new Instructor(1, "Mack");
+        Student student = new Student(2, "Mula");
         instructor.teach(student, 3.5);
         assert student.getTotalStudyTime().equals(3.5);
     }

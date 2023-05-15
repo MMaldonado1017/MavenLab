@@ -2,14 +2,14 @@ import io.zipcoder.interfaces.Person;
 
 public class TestPerson {
     public void testConstructor() {
-        Person person = new Person(1, "John");
+        Person person = new Person(1, "Mack");
         assert person.getId() == 1;
-        assert person.getName().equals("John");
+        assert person.getName().equals("Mack");
     }
 
     public void testSetName() {
-        Person person = new Person(1, "John");
-        person.setName("Jane");
-        assert person.getName().equals("Jane");
+        Person person = new Person(1, "Mack");
+        person.setName("Mac");
+        assert person.getName().equals("Mac");
     }
 }

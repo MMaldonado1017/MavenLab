@@ -2,12 +2,12 @@ import io.zipcoder.interfaces.Person;
 
 public class TestStudent {
     public void testImplementation() {
-        Student student = new Student(1, "John");
+        Student student = new Student(1, "Mack");
         assert student instanceof Learner;
     }
 
     public void testInheritance() {
-        Student student = new Student(1, "John");
+        Student student = new Student(1, "Mack");
         assert student instanceof Person;
     }
 
